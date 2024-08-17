@@ -1,0 +1,17 @@
+{
+  "name": "edunova-innovation-lab-private-limited-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend-app && npm run dev",
+    "backend": "cd backend-app && nodemon index.js",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
